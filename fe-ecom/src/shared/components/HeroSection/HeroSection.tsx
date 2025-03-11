@@ -1,4 +1,4 @@
-import imgBackground from "../../assets/imgs/Background.png"
+import imgBackground from "../../assets/imgs/Rectangle_1.png"
 
   
 export default function RelatedProduct() {

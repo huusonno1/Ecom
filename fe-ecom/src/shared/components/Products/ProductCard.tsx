@@ -10,7 +10,7 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="group">
-      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-100">
+      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-100 rounded-2xl">
         <img
           src={img}
           alt={product.name}
@@ -18,7 +18,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         />
       </div>
       <div className="mt-4">
-        <h3 className="text-sm text-gray-700">{product.name}</h3>
+        <h3 className="text-xl text-gray-700">{product.name}</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">Rs. {product.price.toLocaleString()}.00</p>
       </div>
     </div>
