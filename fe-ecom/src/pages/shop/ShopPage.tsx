@@ -1,5 +1,5 @@
 import React from "react";
-import { SlidersHorizontal, LayoutGrid, List } from "lucide-react";
+import { LayoutGrid, List } from "lucide-react";
 
 import Header from "../../shared/components/Header/Header";
 import Footer from "../../shared/components/Footer/Footer";
