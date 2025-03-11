@@ -37,8 +37,8 @@ const ShopPage: React.FC = () => {
                 </div>
                 <ProductGrid products={products} />
                 <Pagination />
-                <Features></Features>
             </main>
+            <Features></Features>
             <Footer></Footer>
         </>
     );

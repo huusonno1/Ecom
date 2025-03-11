@@ -20,16 +20,16 @@ export default function Example() {
           </a>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/" className="text-sm/6 font-semibold text-gray-900">
             Home
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/shop" className="text-sm/6 font-semibold text-gray-900">
             Shop
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/about" className="text-sm/6 font-semibold text-gray-900">
             About
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/contact" className="text-sm/6 font-semibold text-gray-900">
             Contact
           </a>
         </PopoverGroup>
