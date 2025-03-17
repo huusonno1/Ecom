@@ -11,7 +11,7 @@ export default function Example() {
           <a href="#" className="flex items-center">
             <img
               src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-              className="h-8 me-3"
+              className="me-3 h-8"
               alt="E-com Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap">
@@ -33,7 +33,7 @@ export default function Example() {
             Contact
           </a>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-x-3">
+        <div className="hidden gap-x-3 lg:flex lg:flex-1 lg:justify-end">
           <a className="search" href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"

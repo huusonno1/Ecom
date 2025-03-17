@@ -1,6 +1,6 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import routes from './routes'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import routes from "./routes";
 
 const AppRouter: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const AppRouter: React.FC = () => {
         ))}
       </Routes>
     </Router>
-  )
-}
+  );
+};
 
-export default AppRouter
+export default AppRouter;
